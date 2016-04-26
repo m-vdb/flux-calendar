@@ -13,10 +13,11 @@
     "babel-preset-react": "^6.5.0",
     "babelify": "^7.2.0",
     "browserify": "^13.0.0",
+    "uglify-js": "^2.6.2",
     "watchify": "^3.7.0"
   },
   "scripts": {
-    "build": "browserify . > js/bundle.js",
+    "build": "browserify . | uglifyjs -cm > js/bundle.js",
     "watch": "watchify -o js/bundle.js -v -d js/app.jsx"
   },
   "browserify": {
