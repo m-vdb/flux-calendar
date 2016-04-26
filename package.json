@@ -1,0 +1,9 @@
+{
+  "name": "flux-calendar",
+  "repository": "https://github.com/m-vdb/flux-calendar",
+  "license": "MIT",
+  "dependencies": {
+    "flux": "^2.1.1",
+    "react": "^15.0.1"
+  }
+}
